@@ -1,0 +1,75 @@
+[1.446s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roombazon/Desktop/rosWorkspace/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros
+[2.056s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.749s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.856s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.151s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.176s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.221s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.656s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.675s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.210s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.385s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[5.871s] -- Configuring done
+[6.095s] -- Generating done
+[6.136s] -- Build files have been written to: /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros
+[6.204s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roombazon/Desktop/rosWorkspace/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros
+[6.216s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros -- -j4 -l4
+[6.419s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[6.445s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[6.447s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[6.639s] [  5%] Built target rplidar_client
+[6.655s] [100%] Built target rplidar_composition
+[6.655s] [100%] Built target rplidar_node
+[6.701s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros -- -j4 -l4
+[6.742s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros
+[6.769s] -- Install configuration: ""
+[6.771s] -- Execute custom install script
+[6.777s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[6.779s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[6.780s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[6.782s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[6.784s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[6.788s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[6.789s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[6.790s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[6.792s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[6.795s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[6.797s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[6.798s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[6.800s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[6.801s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[6.803s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[6.804s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[6.806s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[6.807s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[6.809s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[6.811s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[6.812s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[6.814s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[6.815s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[6.816s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[6.820s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[6.822s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[6.824s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[6.825s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[6.827s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[6.829s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[6.831s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[6.833s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[6.835s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[6.837s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[6.838s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[6.840s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[6.842s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[6.843s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[6.844s] -- Symlinking: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.dsv
+[6.880s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[6.882s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.884s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.888s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[6.890s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[6.891s] -- Up-to-date symlink: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.xml
+[6.902s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros

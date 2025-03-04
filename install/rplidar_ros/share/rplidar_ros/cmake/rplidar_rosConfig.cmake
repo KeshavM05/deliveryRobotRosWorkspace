@@ -1,0 +1,1 @@
+/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig.cmake

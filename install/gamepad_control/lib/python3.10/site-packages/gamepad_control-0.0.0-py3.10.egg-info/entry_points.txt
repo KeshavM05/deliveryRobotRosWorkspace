@@ -1,0 +1,3 @@
+[console_scripts]
+gamepad_control = gamepad_control.gamepad_control:main
+

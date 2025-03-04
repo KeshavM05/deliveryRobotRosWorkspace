@@ -1,0 +1,192 @@
+[0.462s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.463s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff975d53f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9778a2f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9778a2f0>>, mixin_verb=('build',))
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roombazon/Desktop/rosWorkspace'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extensions ['ignore', 'ignore_ament_install']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extension 'ignore'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extension 'ignore_ament_install'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extensions ['colcon_pkg']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extension 'colcon_pkg'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extensions ['colcon_meta']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extension 'colcon_meta'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extensions ['ros']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad_control) by extension 'ros'
+[1.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gamepad_control' with type 'ros.ament_python' and name 'gamepad_control'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.542s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/roombazon/Desktop/rosWorkspace/install
+[1.552s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[1.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_args' from command line to 'None'
+[1.753s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_target' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.754s] Level 5:colcon.colcon_core.verb:set package 'gamepad_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.754s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roombazon/Desktop/rosWorkspace/build/gamepad_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control', 'merge_install': False, 'path': '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control', 'symlink_install': False, 'test_result_base': None}
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.757s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.757s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.757s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros', 'merge_install': False, 'path': '/home/roombazon/Desktop/rosWorkspace/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[1.757s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.762s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control' with build type 'ament_python'
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_control', 'ament_prefix_path')
+[1.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/ament_prefix_path.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/ament_prefix_path.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/ament_prefix_path.sh'
+[1.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.802s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roombazon/Desktop/rosWorkspace/src/rplidar_ros' with build type 'ament_cmake'
+[1.803s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roombazon/Desktop/rosWorkspace/src/rplidar_ros'
+[1.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.113s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control'
+[3.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/roombazon/Desktop/rosWorkspace/install/gamepad_control:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros -- -j4 -l4
+[3.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/roombazon/Desktop/rosWorkspace/install/gamepad_control:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros -- -j4 -l4
+[3.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/roombazon/Desktop/rosWorkspace/install/gamepad_control:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros
+[3.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/roombazon/Desktop/rosWorkspace/install/gamepad_control:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/roombazon/Desktop/rosWorkspace/build/rplidar_ros
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros' for CMake module files
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros' for CMake config files
+[3.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib'
+[3.700s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/bin'
+[3.701s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/python3.10/site-packages'
+[3.703s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/bin'
+[3.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros' for CMake module files
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros' for CMake config files
+[3.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/bin'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/python3.10/site-packages'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/bin'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[4.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/gamepad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_control build --build-base /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build install --record /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/install.log --single-version-externally-managed install_data
+[6.424s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control' for CMake module files
+[6.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control' returned '0': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/gamepad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_control build --build-base /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build install --record /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/install.log --single-version-externally-managed install_data
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control' for CMake config files
+[6.432s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib'
+[6.432s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/bin'
+[6.432s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/pkgconfig/gamepad_control.pc'
+[6.433s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages'
+[6.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad_control', 'pythonpath')
+[6.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/pythonpath.ps1'
+[6.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/pythonpath.dsv'
+[6.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/hook/pythonpath.sh'
+[6.441s] Level 1:colcon.colcon_core.environment:checking '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/bin'
+[6.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad_control)
+[6.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/package.ps1'
+[6.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/package.dsv'
+[6.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/package.sh'
+[6.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/package.bash'
+[6.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control/package.zsh'
+[6.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/colcon-core/packages/gamepad_control)
+[6.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.457s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.481s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.498s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roombazon/Desktop/rosWorkspace/install/local_setup.ps1'
+[6.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roombazon/Desktop/rosWorkspace/install/_local_setup_util_ps1.py'
+[6.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roombazon/Desktop/rosWorkspace/install/setup.ps1'
+[6.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roombazon/Desktop/rosWorkspace/install/local_setup.sh'
+[6.517s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roombazon/Desktop/rosWorkspace/install/_local_setup_util_sh.py'
+[6.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roombazon/Desktop/rosWorkspace/install/setup.sh'
+[6.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roombazon/Desktop/rosWorkspace/install/local_setup.bash'
+[6.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roombazon/Desktop/rosWorkspace/install/setup.bash'
+[6.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roombazon/Desktop/rosWorkspace/install/local_setup.zsh'
+[6.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roombazon/Desktop/rosWorkspace/install/setup.zsh'
