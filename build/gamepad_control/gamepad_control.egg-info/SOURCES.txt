@@ -9,6 +9,10 @@ setup.py
 ../../build/gamepad_control/gamepad_control.egg-info/top_level.txt
 ../../build/gamepad_control/gamepad_control.egg-info/zip-safe
 gamepad_control/__init__.py
+gamepad_control/commands.py
+gamepad_control/controller.py
+gamepad_control/gamepadCheck.py
+gamepad_control/gamepadTest.py
 gamepad_control/gamepad_control.py
 resource/gamepad_control
 test/test_copyright.py

@@ -1,0 +1,4 @@
+[console_scripts]
+gamepad_controller = controller.gamepad_controller:main
+joystick_serial = controller.joystick_serial:main
+

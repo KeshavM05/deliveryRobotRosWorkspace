@@ -1,0 +1,51 @@
+[4.896s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/gamepad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_control build --build-base /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build install --record /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/install.log --single-version-externally-managed install_data
+[6.624s] running egg_info
+[6.626s] creating ../../build/gamepad_control/gamepad_control.egg-info
+[6.628s] writing ../../build/gamepad_control/gamepad_control.egg-info/PKG-INFO
+[6.629s] writing dependency_links to ../../build/gamepad_control/gamepad_control.egg-info/dependency_links.txt
+[6.630s] writing entry points to ../../build/gamepad_control/gamepad_control.egg-info/entry_points.txt
+[6.631s] writing requirements to ../../build/gamepad_control/gamepad_control.egg-info/requires.txt
+[6.632s] writing top-level names to ../../build/gamepad_control/gamepad_control.egg-info/top_level.txt
+[6.633s] writing manifest file '../../build/gamepad_control/gamepad_control.egg-info/SOURCES.txt'
+[6.642s] reading manifest file '../../build/gamepad_control/gamepad_control.egg-info/SOURCES.txt'
+[6.646s] writing manifest file '../../build/gamepad_control/gamepad_control.egg-info/SOURCES.txt'
+[6.647s] running build
+[6.649s] running build_py
+[6.650s] creating /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build
+[6.651s] creating /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib
+[6.653s] creating /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.671s] copying gamepad_control/__init__.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.672s] copying gamepad_control/controller.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.672s] copying gamepad_control/gamepad_control.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.715s] copying gamepad_control/gamepadTest.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.752s] copying gamepad_control/gamepadCheck.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.794s] copying gamepad_control/commands.py -> /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control
+[6.796s] running install
+[6.797s] running install_lib
+[6.801s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.801s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/__init__.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.802s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/controller.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.803s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/gamepad_control.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.804s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/gamepadTest.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.805s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/gamepadCheck.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.807s] copying /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build/lib/gamepad_control/commands.py -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control
+[6.810s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/__init__.py to __init__.cpython-310.pyc
+[6.812s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/controller.py to controller.cpython-310.pyc
+[6.814s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/gamepad_control.py to gamepad_control.cpython-310.pyc
+[6.818s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/gamepadTest.py to gamepadTest.cpython-310.pyc
+[6.819s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/gamepadCheck.py to gamepadCheck.cpython-310.pyc
+[6.821s] byte-compiling /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control/commands.py to commands.cpython-310.pyc
+[6.824s] running install_data
+[6.825s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share
+[6.826s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/ament_index
+[6.826s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/ament_index/resource_index
+[6.827s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/ament_index/resource_index/packages
+[6.828s] copying resource/gamepad_control -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/ament_index/resource_index/packages
+[6.828s] creating /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control
+[6.829s] copying package.xml -> /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/share/gamepad_control
+[6.829s] running install_egg_info
+[6.837s] Copying ../../build/gamepad_control/gamepad_control.egg-info to /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages/gamepad_control-0.0.0-py3.10.egg-info
+[6.851s] running install_scripts
+[6.992s] Installing gamepad_control script to /home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/gamepad_control
+[6.995s] writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/gamepad_control/install.log'
+[7.175s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/src/gamepad_control' returned '0': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/gamepad_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/gamepad_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamepad_control build --build-base /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/build install --record /home/roombazon/Desktop/rosWorkspace/build/gamepad_control/install.log --single-version-externally-managed install_data

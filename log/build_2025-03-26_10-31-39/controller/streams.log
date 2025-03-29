@@ -1,0 +1,25 @@
+[5.039s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/src/controller': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/roombazon/Desktop/rosWorkspace/build/controller/build install --record /home/roombazon/Desktop/rosWorkspace/build/controller/install.log --single-version-externally-managed install_data
+[6.737s] running egg_info
+[6.739s] creating ../../build/controller/controller.egg-info
+[6.739s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[6.741s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[6.741s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[6.742s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[6.742s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[6.743s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[6.747s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[6.750s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[6.761s] running build
+[6.761s] running install
+[6.762s] running install_data
+[6.765s] creating /home/roombazon/Desktop/rosWorkspace/install/controller/share/ament_index
+[6.766s] creating /home/roombazon/Desktop/rosWorkspace/install/controller/share/ament_index/resource_index
+[6.767s] creating /home/roombazon/Desktop/rosWorkspace/install/controller/share/ament_index/resource_index/packages
+[6.773s] copying resource/controller -> /home/roombazon/Desktop/rosWorkspace/install/controller/share/ament_index/resource_index/packages
+[6.774s] copying package.xml -> /home/roombazon/Desktop/rosWorkspace/install/controller/share/controller
+[6.775s] running install_egg_info
+[6.782s] Copying ../../build/controller/controller.egg-info to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[6.833s] running install_scripts
+[6.958s] Installing gamepad_controller script to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/controller
+[6.962s] writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/controller/install.log'
+[7.144s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/src/controller' returned '0': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/roombazon/Desktop/rosWorkspace/build/controller/build install --record /home/roombazon/Desktop/rosWorkspace/build/controller/install.log --single-version-externally-managed install_data
