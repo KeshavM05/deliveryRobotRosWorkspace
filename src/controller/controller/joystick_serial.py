@@ -35,14 +35,14 @@ class JoystickSerial(Node):
         # Only send if interval has passed
         if time.time() - self.last_sent_time > self.send_interval:
             data = {
-                "left_motor": left_motor_speed,
-                "right_motor": right_motor_speed
+                "l": left_motor_speed,
+                "r": right_motor_speed
             }
-            json_data = json.dumps(data)
+            json_data = json.dumps(data, separators=(',', ':'))
 
             try:
                 self.serial_conn.write((json_data + "\n").encode())  # Send JSON + newline
-                self.get_logger().info(f"Sent: {json_data}")
+                self.get_logger().info(f"Sending: {json_data}")
                 self.last_sent_time = time.time()
             except Exception as e:
                 self.get_logger().error(f"Serial error: {e}")
