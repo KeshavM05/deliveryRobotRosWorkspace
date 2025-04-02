@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.001366] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.001650] (odometry_publisher) JobQueued: {'identifier': 'odometry_publisher', 'dependencies': OrderedDict()}
+[0.001948] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002096] (controller) JobStarted: {'identifier': 'controller'}
+[0.088872] (-) TimerEvent: {}
+[0.100174] (odometry_publisher) JobStarted: {'identifier': 'odometry_publisher'}
+[0.162939] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.188972] (-) TimerEvent: {}
+[0.290121] (-) TimerEvent: {}
+[0.391831] (-) TimerEvent: {}
+[0.492999] (-) TimerEvent: {}
+[0.599767] (-) TimerEvent: {}
+[0.701334] (-) TimerEvent: {}
+[0.802965] (-) TimerEvent: {}
+[0.904263] (-) TimerEvent: {}
+[1.005959] (-) TimerEvent: {}
+[1.107454] (-) TimerEvent: {}
+[1.209496] (-) TimerEvent: {}
+[1.312132] (-) TimerEvent: {}
+[1.413450] (-) TimerEvent: {}
+[1.515246] (-) TimerEvent: {}
+[1.617277] (-) TimerEvent: {}
+[1.721344] (-) TimerEvent: {}
+[1.823222] (-) TimerEvent: {}
+[1.924832] (-) TimerEvent: {}
+[2.026674] (-) TimerEvent: {}
+[2.127919] (-) TimerEvent: {}
+[2.229485] (-) TimerEvent: {}
+[2.330510] (-) TimerEvent: {}
+[2.431491] (-) TimerEvent: {}
+[2.533381] (-) TimerEvent: {}
+[2.634570] (-) TimerEvent: {}
+[2.737618] (-) TimerEvent: {}
+[2.839518] (-) TimerEvent: {}
+[2.948147] (-) TimerEvent: {}
+[3.050727] (-) TimerEvent: {}
+[3.153211] (-) TimerEvent: {}
+[3.254435] (-) TimerEvent: {}
+[3.356347] (-) TimerEvent: {}
+[3.460026] (-) TimerEvent: {}
+[3.562103] (-) TimerEvent: {}
+[3.663278] (-) TimerEvent: {}
+[3.764531] (-) TimerEvent: {}
+[3.865359] (-) TimerEvent: {}
+[3.966578] (-) TimerEvent: {}
+[4.068006] (-) TimerEvent: {}
+[4.168964] (-) TimerEvent: {}
+[4.270200] (-) TimerEvent: {}
+[4.371370] (-) TimerEvent: {}
+[4.472414] (-) TimerEvent: {}
+[4.574257] (-) TimerEvent: {}
+[4.676604] (-) TimerEvent: {}
+[4.778145] (-) TimerEvent: {}
+[4.880054] (-) TimerEvent: {}
+[4.982562] (-) TimerEvent: {}
+[5.083629] (-) TimerEvent: {}
+[5.185697] (-) TimerEvent: {}
+[5.289585] (-) TimerEvent: {}
+[5.392583] (-) TimerEvent: {}
+[5.495100] (-) TimerEvent: {}
+[5.596037] (-) TimerEvent: {}
+[5.697770] (-) TimerEvent: {}
+[5.798902] (-) TimerEvent: {}
+[5.900785] (-) TimerEvent: {}
+[6.006280] (-) TimerEvent: {}
+[6.112717] (-) TimerEvent: {}
+[6.215484] (-) TimerEvent: {}
+[6.316285] (-) TimerEvent: {}
+[6.417358] (-) TimerEvent: {}
+[6.524032] (-) TimerEvent: {}
+[6.624979] (-) TimerEvent: {}
+[6.726166] (-) TimerEvent: {}
+[6.825370] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[6.826318] (-) TimerEvent: {}
+[6.833099] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[6.839609] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'roombazon'), ('SSH_AGENT_PID', '1357'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/roombazon/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roombazon'), ('OLDPWD', '/home/roombazon'), ('ROS_PYTHON_VERSION', '3'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roombazon'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/roombazon/.local/share'), ('XDG_CONFIG_HOME', '/home/roombazon/.config'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnC1nXO/agent.1289'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc:/etc/xdg:/usr/share'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble')]), 'shell': False}
+[6.931764] (-) TimerEvent: {}
+[7.032641] (-) TimerEvent: {}
+[7.134203] (-) TimerEvent: {}
+[7.236075] (-) TimerEvent: {}
+[7.337346] (-) TimerEvent: {}
+[7.438718] (-) TimerEvent: {}
+[7.442728] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[7.539032] (-) TimerEvent: {}
+[7.640547] (-) TimerEvent: {}
+[7.743039] (-) TimerEvent: {}
+[7.844382] (-) TimerEvent: {}
+[7.947227] (-) TimerEvent: {}
+[7.963348] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_client\n'}
+[8.047525] (-) TimerEvent: {}
+[8.180613] (-) TimerEvent: {}
+[8.282525] (-) TimerEvent: {}
+[8.311097] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[8.382955] (-) TimerEvent: {}
+[8.432819] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.435269] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[8.483001] (-) TimerEvent: {}
+[8.497515] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros'], 'cwd': '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'roombazon'), ('SSH_AGENT_PID', '1357'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/roombazon/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/roombazon'), ('OLDPWD', '/home/roombazon'), ('ROS_PYTHON_VERSION', '3'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'roombazon'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/roombazon/.local/share'), ('XDG_CONFIG_HOME', '/home/roombazon/.config'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnC1nXO/agent.1289'), ('ROS_DOMAIN_ID', '22'), ('AMENT_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/roombazon/Desktop/rosWorkspace/build/rplidar_ros'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc:/etc/xdg:/usr/share'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble')]), 'shell': False}
+[8.583235] (-) TimerEvent: {}
+[8.590649] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.606613] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[8.607548] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[8.608295] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[8.608905] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[8.610946] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[8.613932] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[8.615042] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[8.615625] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[8.616105] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[8.616503] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[8.616928] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[8.629606] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[8.630835] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[8.631555] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[8.632172] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[8.632965] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[8.639066] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[8.639661] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[8.640287] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[8.640889] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[8.641528] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[8.642174] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[8.643148] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[8.643928] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[8.647317] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[8.648027] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[8.648520] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[8.649045] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[8.660270] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.660991] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[8.661523] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[8.662176] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[8.662816] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[8.663345] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[8.663969] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[8.670686] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[8.671319] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[8.672030] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[8.672528] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[8.673036] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[8.673663] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[8.674227] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[8.674940] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.675648] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.698731] (-) TimerEvent: {}
+[8.699370] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[8.700044] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[8.700472] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/roombazon/Desktop/rosWorkspace/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[8.704732] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.799557] (-) TimerEvent: {}
+[8.884117] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[8.906980] (-) TimerEvent: {}
+[9.011969] (-) TimerEvent: {}
+[9.113426] (-) TimerEvent: {}
+[9.214490] (-) TimerEvent: {}
+[9.315681] (-) TimerEvent: {}
+[9.417167] (-) TimerEvent: {}
+[9.518327] (-) TimerEvent: {}
+[9.621786] (-) TimerEvent: {}
+[9.722632] (-) TimerEvent: {}
+[9.823502] (-) TimerEvent: {}
+[9.925261] (-) TimerEvent: {}
+[10.027971] (-) TimerEvent: {}
+[10.130629] (-) TimerEvent: {}
+[10.233308] (-) TimerEvent: {}
+[10.337032] (-) TimerEvent: {}
+[10.440005] (-) TimerEvent: {}
+[10.542688] (-) TimerEvent: {}
+[10.649882] (-) TimerEvent: {}
+[10.750793] (-) TimerEvent: {}
+[10.851806] (-) TimerEvent: {}
+[10.953195] (-) TimerEvent: {}
+[11.054412] (-) TimerEvent: {}
+[11.156162] (-) TimerEvent: {}
+[11.258182] (-) TimerEvent: {}
+[11.359964] (-) TimerEvent: {}
+[11.404612] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/roombazon/Desktop/rosWorkspace/build/controller/build', 'install', '--record', '/home/roombazon/Desktop/rosWorkspace/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/roombazon/Desktop/rosWorkspace/src/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'roombazon', 'SSH_AGENT_PID': '1357', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/roombazon/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/roombazon', 'OLDPWD': '/home/roombazon', 'ROS_PYTHON_VERSION': '3', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'roombazon', 'WINDOWID': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/roombazon/.local/share', 'XDG_CONFIG_HOME': '/home/roombazon/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXnC1nXO/agent.1289', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/roombazon/Desktop/rosWorkspace/build/controller', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc:/etc/xdg:/usr/share', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roombazon/Desktop/rosWorkspace/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros'}, 'shell': False}
+[11.462565] (-) TimerEvent: {}
+[11.563550] (-) TimerEvent: {}
+[11.664526] (-) TimerEvent: {}
+[11.765427] (-) TimerEvent: {}
+[11.870397] (-) TimerEvent: {}
+[11.972785] (-) TimerEvent: {}
+[12.073750] (-) TimerEvent: {}
+[12.175689] (-) TimerEvent: {}
+[12.277197] (-) TimerEvent: {}
+[12.379114] (-) TimerEvent: {}
+[12.480523] (-) TimerEvent: {}
+[12.584189] (-) TimerEvent: {}
+[12.685481] (-) TimerEvent: {}
+[12.704738] (odometry_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/odometry_publisher', 'build', '--build-base', '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/build', 'install', '--record', '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/roombazon/Desktop/rosWorkspace/src/odometry_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'roombazon', 'SSH_AGENT_PID': '1357', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/roombazon/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/roombazon', 'OLDPWD': '/home/roombazon', 'ROS_PYTHON_VERSION': '3', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'roombazon', 'WINDOWID': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/roombazon/.local/share', 'XDG_CONFIG_HOME': '/home/roombazon/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXnC1nXO/agent.1289', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher:/home/roombazon/Desktop/rosWorkspace/install/controller:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc:/etc/xdg:/usr/share', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/roombazon/Desktop/rosWorkspace/install/rplidar_ros'}, 'shell': False}
+[12.785774] (-) TimerEvent: {}
+[12.887650] (-) TimerEvent: {}
+[12.991758] (-) TimerEvent: {}
+[13.093312] (-) TimerEvent: {}
+[13.212453] (-) TimerEvent: {}
+[13.315551] (-) TimerEvent: {}
+[13.417496] (-) TimerEvent: {}
+[13.519373] (-) TimerEvent: {}
+[13.620979] (-) TimerEvent: {}
+[13.722639] (-) TimerEvent: {}
+[13.827352] (-) TimerEvent: {}
+[13.928141] (-) TimerEvent: {}
+[14.004299] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.009281] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[14.011003] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[14.012756] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[14.014891] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[14.016231] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[14.028478] (-) TimerEvent: {}
+[14.031610] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[14.036572] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[14.037649] (controller) StdoutLine: {'line': b'running build\n'}
+[14.038644] (controller) StdoutLine: {'line': b'running build_py\n'}
+[14.051814] (controller) StdoutLine: {'line': b'running install\n'}
+[14.052548] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.053140] (controller) StdoutLine: {'line': b'running install_data\n'}
+[14.053924] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.063458] (controller) StdoutLine: {'line': b"removing '/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.068743] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info\n'}
+[14.076156] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.128956] (-) TimerEvent: {}
+[14.233380] (-) TimerEvent: {}
+[14.288020] (controller) StdoutLine: {'line': b'Installing gamepad_controller script to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/controller\n'}
+[14.291826] (controller) StdoutLine: {'line': b'Installing joystick_serial script to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/controller\n'}
+[14.296640] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/controller/install.log'\n"}
+[14.333658] (-) TimerEvent: {}
+[14.434843] (-) TimerEvent: {}
+[14.538577] (-) TimerEvent: {}
+[14.642713] (-) TimerEvent: {}
+[14.654902] (controller) CommandEnded: {'returncode': 0}
+[14.754202] (-) TimerEvent: {}
+[14.807863] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[14.854954] (-) TimerEvent: {}
+[14.957571] (-) TimerEvent: {}
+[15.058503] (-) TimerEvent: {}
+[15.170304] (-) TimerEvent: {}
+[15.271455] (-) TimerEvent: {}
+[15.374720] (-) TimerEvent: {}
+[15.476496] (-) TimerEvent: {}
+[15.579410] (-) TimerEvent: {}
+[15.682826] (-) TimerEvent: {}
+[15.783732] (-) TimerEvent: {}
+[15.884626] (-) TimerEvent: {}
+[15.986847] (-) TimerEvent: {}
+[16.088385] (-) TimerEvent: {}
+[16.190738] (-) TimerEvent: {}
+[16.291548] (-) TimerEvent: {}
+[16.392366] (-) TimerEvent: {}
+[16.493656] (-) TimerEvent: {}
+[16.563540] (odometry_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[16.569618] (odometry_publisher) StdoutLine: {'line': b'writing ../../build/odometry_publisher/odometry_publisher.egg-info/PKG-INFO\n'}
+[16.571604] (odometry_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/odometry_publisher/odometry_publisher.egg-info/dependency_links.txt\n'}
+[16.573214] (odometry_publisher) StdoutLine: {'line': b'writing entry points to ../../build/odometry_publisher/odometry_publisher.egg-info/entry_points.txt\n'}
+[16.575231] (odometry_publisher) StdoutLine: {'line': b'writing requirements to ../../build/odometry_publisher/odometry_publisher.egg-info/requires.txt\n'}
+[16.577997] (odometry_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/odometry_publisher/odometry_publisher.egg-info/top_level.txt\n'}
+[16.591027] (odometry_publisher) StdoutLine: {'line': b"reading manifest file '../../build/odometry_publisher/odometry_publisher.egg-info/SOURCES.txt'\n"}
+[16.593930] (-) TimerEvent: {}
+[16.597673] (odometry_publisher) StdoutLine: {'line': b"writing manifest file '../../build/odometry_publisher/odometry_publisher.egg-info/SOURCES.txt'\n"}
+[16.598799] (odometry_publisher) StdoutLine: {'line': b'running build\n'}
+[16.599598] (odometry_publisher) StdoutLine: {'line': b'running build_py\n'}
+[16.600926] (odometry_publisher) StdoutLine: {'line': b'copying odometry_publisher/serial_odom_node.py -> /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/build/lib/odometry_publisher\n'}
+[16.603905] (odometry_publisher) StdoutLine: {'line': b'running install\n'}
+[16.605579] (odometry_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[16.611321] (odometry_publisher) StdoutLine: {'line': b'copying /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/build/lib/odometry_publisher/serial_odom_node.py -> /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher\n'}
+[16.618954] (odometry_publisher) StdoutLine: {'line': b'byte-compiling /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher/serial_odom_node.py to serial_odom_node.cpython-310.pyc\n'}
+[16.624669] (odometry_publisher) StdoutLine: {'line': b'running install_data\n'}
+[16.625804] (odometry_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.643801] (odometry_publisher) StdoutLine: {'line': b"removing '/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.646632] (odometry_publisher) StdoutLine: {'line': b'Copying ../../build/odometry_publisher/odometry_publisher.egg-info to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher-0.0.0-py3.10.egg-info\n'}
+[16.658205] (odometry_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[16.694108] (-) TimerEvent: {}
+[16.802652] (-) TimerEvent: {}
+[16.839473] (odometry_publisher) StdoutLine: {'line': b'Installing joystick_node script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher\n'}
+[16.842384] (odometry_publisher) StdoutLine: {'line': b'Installing odometry_publisher script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher\n'}
+[16.843298] (odometry_publisher) StdoutLine: {'line': b'Installing serial_odom script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher\n'}
+[16.845644] (odometry_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/install.log'\n"}
+[16.905937] (-) TimerEvent: {}
+[17.011687] (-) TimerEvent: {}
+[17.046497] (odometry_publisher) CommandEnded: {'returncode': 0}
+[17.097172] (odometry_publisher) JobEnded: {'identifier': 'odometry_publisher', 'rc': 0}
+[17.105464] (-) EventReactorShutdown: {}

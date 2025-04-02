@@ -1,0 +1,5 @@
+[console_scripts]
+joystick_node = odometry_publisher.joystick_node:main
+odometry_publisher = odometry_publisher.odometry_publisher:main
+serial_odom = odometry_publisher.serial_odom_node:main
+

@@ -1,0 +1,23 @@
+[6.217s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/src/odometry_publisher': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_publisher build --build-base /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/build install --record /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/install.log --single-version-externally-managed install_data
+[7.816s] running egg_info
+[7.819s] writing ../../build/odometry_publisher/odometry_publisher.egg-info/PKG-INFO
+[7.820s] writing dependency_links to ../../build/odometry_publisher/odometry_publisher.egg-info/dependency_links.txt
+[7.822s] writing entry points to ../../build/odometry_publisher/odometry_publisher.egg-info/entry_points.txt
+[7.823s] writing requirements to ../../build/odometry_publisher/odometry_publisher.egg-info/requires.txt
+[7.825s] writing top-level names to ../../build/odometry_publisher/odometry_publisher.egg-info/top_level.txt
+[7.834s] reading manifest file '../../build/odometry_publisher/odometry_publisher.egg-info/SOURCES.txt'
+[7.839s] writing manifest file '../../build/odometry_publisher/odometry_publisher.egg-info/SOURCES.txt'
+[7.840s] running build
+[7.841s] running build_py
+[7.844s] running install
+[7.846s] running install_lib
+[7.854s] running install_data
+[7.856s] running install_egg_info
+[7.869s] removing '/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[7.876s] Copying ../../build/odometry_publisher/odometry_publisher.egg-info to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages/odometry_publisher-0.0.0-py3.10.egg-info
+[7.889s] running install_scripts
+[8.033s] Installing joystick_node script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher
+[8.038s] Installing odometry_publisher script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher
+[8.039s] Installing serial_odom script to /home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/odometry_publisher
+[8.042s] writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/install.log'
+[8.183s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/src/odometry_publisher' returned '0': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/odometry_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_publisher build --build-base /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/build install --record /home/roombazon/Desktop/rosWorkspace/build/odometry_publisher/install.log --single-version-externally-managed install_data

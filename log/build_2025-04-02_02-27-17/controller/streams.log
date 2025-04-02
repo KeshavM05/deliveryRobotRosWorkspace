@@ -1,0 +1,22 @@
+[6.014s] Invoking command in '/home/roombazon/Desktop/rosWorkspace/src/controller': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/roombazon/Desktop/rosWorkspace/build/controller/build install --record /home/roombazon/Desktop/rosWorkspace/build/controller/install.log --single-version-externally-managed install_data
+[7.353s] running egg_info
+[7.356s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[7.358s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[7.359s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[7.360s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[7.361s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[7.369s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[7.373s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[7.374s] running build
+[7.375s] running build_py
+[7.378s] running install
+[7.378s] running install_lib
+[7.384s] running install_data
+[7.385s] running install_egg_info
+[7.394s] removing '/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)
+[7.396s] Copying ../../build/controller/controller.egg-info to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[7.404s] running install_scripts
+[7.505s] Installing gamepad_controller script to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/controller
+[7.507s] Installing joystick_serial script to /home/roombazon/Desktop/rosWorkspace/install/controller/lib/controller
+[7.510s] writing list of installed files to '/home/roombazon/Desktop/rosWorkspace/build/controller/install.log'
+[7.711s] Invoked command in '/home/roombazon/Desktop/rosWorkspace/src/controller' returned '0': PYTHONPATH=/home/roombazon/Desktop/rosWorkspace/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roombazon/Desktop/rosWorkspace/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/roombazon/Desktop/rosWorkspace/build/controller/build install --record /home/roombazon/Desktop/rosWorkspace/build/controller/install.log --single-version-externally-managed install_data

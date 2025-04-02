@@ -12,7 +12,7 @@ class JoystickSerial(Node):
         
         # Initialize serial connection to Arduino
         self.serial_port = '/dev/ttyACM0'  # Change this based on your setup (use `ls /dev/tty*`)
-        self.baud_rate = 115200
+        self.baud_rate = 9600
         self.serial_conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1)
 
         self.last_sent_time = time.time()
